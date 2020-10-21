@@ -1,8 +1,8 @@
 var citiesDiv = document.getElementById("previous_search_container");
 var prvCities = [];
 
-//runs when web page is opened to see if there is anything
-//stored in local storage
+// runs when web page is opened to see if there is anything
+// stored in local storage
 $(document).ready(function() {
 
 	$("#prevSearch").hide();
@@ -12,17 +12,18 @@ $(document).ready(function() {
 	if (saved_cities !== null) {
 		prvCities = saved_cities;
 		$("#prevSearch").show();
-	}
-
-	console.log(prvCities);
-
-	//currentData(city);
-	//forecastData(city);
+		$("#fiveForecast").show();
+		$("#currentWeather").show();
+		city = prvCities[prvCities.length-1];
+		currentData(city);
+		forecastData(city);
+	
 	genButtons();
+	}
 });
 
 
-//sets localstorage item to cities array 
+// sets localstorage item to cities array 
 function storeCities() {
 	localStorage.setItem("prvCities", JSON.stringify(prvCities));
 }
@@ -35,7 +36,7 @@ function genButtons() {
 		return;
 	}
 
-    //found this solution via stackoverflow (Thank you for that site!)
+    // found this solution via stackoverflow (Thank you to that site!)
 	var unique_cities = [...new Set(prvCities)];
 	for (var i = 0; i < unique_cities.length; i++) {
 		var cityName = unique_cities[i];
@@ -59,24 +60,25 @@ function listClicker() {
 		forecastData(city);
 
 		$("#fiveForecast").show();
+		$("#currentWeather").show();
 	});
 }
 
-//event listener to search for city when search button is clicked
+// event listener to search for city when search button is clicked
 
 $("#searchBtn").on("click", function(event) {
 	event.preventDefault();
 	var city = $("#search_bar").val().trim();
-
-	//  //check to see if text had been answered
-	//      localStorage.setItem("prvCities", (city));
+	console.log(city);
+	// Checks to make sure the is something in the input field
+	if (city === "") {
+		return false;
+	}
 
 	// Add new data to localStorage Array
 	prvCities.push(city);
+	
 
-	if (city === "") {
-		return;
-	}
 
 	forecastData(city);
 	currentData(city);
@@ -86,5 +88,6 @@ $("#searchBtn").on("click", function(event) {
 	//shows the created forecast cards
 	$("#fiveForecast").show();
 	$("#prevSearch").show();
+	$("#currentWeather").show();
 
 });

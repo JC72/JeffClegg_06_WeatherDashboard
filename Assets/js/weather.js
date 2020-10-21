@@ -5,6 +5,8 @@ var longitude = "";
 
 var myAPI = "&appid=3e749baca353e5b24305a53868c86b75";
 
+
+
 //function to retrieve future weather forecast for the next 5 days
 //from openweathermap using ajax method
 function forecastData(city) {
@@ -66,21 +68,14 @@ function forecastData(city) {
 		}
 
 	});
-
-
-
-
-
 }
+
 //This function retrieves current data for chosen city from
 //from openweathermap using ajax method
 function currentData(city) {
 
 	var currentUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
 	var queryURL2 = currentUrl + city + myAPI;
-
-	$("#currentWeather").css("border", "1px solid");
-	$("#currentWeather").css("border-color", "rgba(0,0,0,.125)");
 
 	$.ajax({
 		url: queryURL2,
@@ -142,8 +137,8 @@ function UVpull() {
 
 	.then(function(UVI) {
 		//console log data to pull the needed attributes for this assigment
-		// console.log(UVI);
-		// console.log(queryURL3);
+		//console.log(UVI);
+		//console.log(queryURL3);
 		// console.log(UVI.value);
 
 		var uvValue = UVI.value;
@@ -181,3 +176,5 @@ function UVpull() {
 		$("#curUVI").append(uvLabel);
 	});
 }
+var locate =""
+

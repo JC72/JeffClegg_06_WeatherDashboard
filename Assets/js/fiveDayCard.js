@@ -48,6 +48,7 @@ days.forEach(function(setDay) {
 	//Hides the created individual cards
 	$("#fiveForecast").hide();
 	$("#prevSearch").hide();
+	$("#currentWeather").hide();
 
 });
 

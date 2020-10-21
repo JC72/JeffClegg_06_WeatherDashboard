@@ -1,35 +1,45 @@
+/*styling for Header of Web Page*/
 #page_header {
     text-align: center;
     background-color:#3d6488;
     font-family: 'Open Sans Condensed', sans-serif;
     color: white
-
 }
 
+/*styling for search area container*/
 #searchArea {
     background-color: whitesmoke;
-    display: table;
 }
 
+/*styling for search button*/
 #searchBtn {
     background-color: blue;
     font-family: 'Open Sans Condensed', sans-serif;
-    
 }
 
+/*styling for second line of #prevSearch*/
+#secline {
+    font-size: 14px;
+}
+
+/*sets visibility of 5 day forecast Header*/
 #textDark {
  visibility: hidden;   
 }
 
-#currentWeather {
-    border: 0px
-}
-
+/*sets styling for uv index label*/
 #uvLabel {
     padding-left: 5px;
     font-size: 14px;
 }
 
+/*sets styling for #cityname*/
+#cityName {
+    vertical-align: middle;
+    margin: auto;
+}
+
+/*sets styling for 5 day forecast cards*/
 #forecastCards {
     background-color: dodgerblue;
     color: white;
@@ -40,27 +50,33 @@
     border-radius: 10px;
     width: 7.5rem;
 }
-
+/*sets styling for all h4 headers*/
 h4 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
+/*sets styling for the generated previous search buttons*/
 .listbtn {
     display: inline-flex;
     flex-direction: column;
-    width: 100%
-
+    width: 100%;
+    background-color: lightblue;
+    font-weight: bold;
+    border-width: .5px;
 }
 
+/*sets styling for the Current Weather label container*/
 #city-state-date-icon {
     display: inline-flex;
     flex-direction: row;
 }
 
+/*sets styling for the temp font size in 5 day forecast cards*/
 .temp {
     font-size: 14px;
 }
 
+/*sets styling for the humidity font size in 5 day forecast cards*/
 .humidity {
     font-size: 14px;
 }

@@ -23,9 +23,6 @@
 </head>
 <body>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-
     <!--Weather Dasbord Header-->
     <header id="page_header" class="container-fluid  pt-3 pb-3 text-center">
         <h1 class="text-white">Weather Dashboard</h1>
@@ -34,8 +31,8 @@
     <!--Search Input and Search Button Division-->
     <div class="container-fluid row">
         <div id = "searchArea" class="col-sm-3 left_div justify-content-center pt-3">
-                <div class="search_div mb-4">
-                <h5 class="justify-content-center pt-2 pl-1">Search By City:</h5>
+                <div class="search_div mb-2">
+                <h5 class="justify-content-center pt-2 pl-1">Search By City: </h5>
                     <form class="input-group my-2 my-lg-0 mt-3 ml-1">
                             <input class="form-control float-left" type="search" placeholder="Search" id= "search_bar" aria-label="Search">
                         <div class = "input-group-append">
@@ -44,14 +41,15 @@
                     
                     </form>
                 </div>
-                <h6 id = "prevSearch" class="justify-content-center pt-2 pl-1">Previous Cities Searched:</h6>
+                <h6 id = "prevSearch" class="justify-content-center pt-2 pl-1">Previous Cities Searched:<br />
+                    <span id="secline">(click city to view again)</span></h6>
                 <div class="container my-3 col-12" id="previous_search_container">
 
         </div>
     </div>
 
     <!--Today's Weather Div to show information on certain weather data for today-->
-    <div id="today" class="todays_weather col-9 pt-3">
+    <div id="today" class="todays_weather col-9 pt-2">
         <div id="currentWeather" class = "card">
             <div class="card-body">
                 <div id="city-state-date-icon">
@@ -77,14 +75,15 @@
 
     </div>
 </div>
-    <!--Bootstrap source link-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
 
     <!--jquery source link-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
+    <!--Bootstrap source link-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+  
     <!--Moment.js source link-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 
