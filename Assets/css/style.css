@@ -1,0 +1,66 @@
+#page_header {
+    text-align: center;
+    background-color:#3d6488;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white
+
+}
+
+#searchArea {
+    background-color: whitesmoke;
+    display: table;
+}
+
+#searchBtn {
+    background-color: blue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+#textDark {
+ visibility: hidden;   
+}
+
+#currentWeather {
+    border: 0px
+}
+
+#uvLabel {
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+#forecastCards {
+    background-color: dodgerblue;
+    color: white;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4px;
+    border-radius: 10px;
+    width: 7.5rem;
+}
+
+h4 {
+    margin-top: 20px;
+}
+
+.listbtn {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%
+
+}
+
+#city-state-date-icon {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.temp {
+    font-size: 14px;
+}
+
+.humidity {
+    font-size: 14px;
+}
