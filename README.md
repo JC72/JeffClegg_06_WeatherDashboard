@@ -34,9 +34,12 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
     - Only contains the Main Header and the City Search Input Page
 
+
     *Opening Page*![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)
 
+
     - Allows the user to start their initial weather search
+
 
     *Start Search Page*![Start Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/StartSearch.png)
 
@@ -50,7 +53,9 @@ This project has been deployed to my Personal GitHub Page. To get this project u
     - Shows the 5-Day forecast information below the current weather with all the required information
     - Shows the area with the previous search history
 
+
     *Initial Results*![Initial Results](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/InitialResults.png)
+
 
     *Second City Search*![Second Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SecondSearch.png)
 
@@ -63,7 +68,9 @@ This project has been deployed to my Personal GitHub Page. To get this project u
     - Shows the user all of the cities that were searched
     - Also the weather data for the last city the user searched using the site
 
+
     *Web Page Reopened*![Reopen Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/ReOpenPage.png)
+
 
     *Search History showing Local Storage*![Search History](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SearchHistory.png)
 
@@ -94,7 +101,7 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
 </details>
 
-## Scripted Features <a name="scriptedfeatures></a>
+## Scripted Features <a name="scriptedfeatures"></a>
 ### This project has several scripted features of:
 <details>
     <summary>Click to expand</summary>
