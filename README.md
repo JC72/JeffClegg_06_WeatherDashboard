@@ -16,25 +16,50 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
 ### This assignment contains the following features: 
 * The Initial Opening Page
+<details>
+<summary>Click to expand</summary>
+
     * Only contains the Main Header and the City Search Input Page
+
+    ![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)
+
     * Allows the user to start their initial weather search
 
-    <!-- PlaceHolder for Link to screenshot -->
+    ![Start Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/StartSearch.png)
+
+</details>
 
 * The Result Page
+<details>
+<summary>Click to expand</summary>
+
     * Show the current weather with all the information required
     * Shows the 5-Day forecast information below the current weather with all the required information
     * Shows the area with the previous search history
 
-    <!-- PlaceHolder for Link to screenshot -->
+    ![Initial Results](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/InitialResults.png)
+
+    ![Second Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SecondSearch.png)
+
+</details>
 
 * The Reopened Website
+<details>
+<summary>Click to expand</summary>
+
     * Shows the user all of the cities that were searched
     * Also the weather data for the last city the user searched using the site
 
-    <!-- PlaceHolder for Link to screenshot -->
+    ![Reopen Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/ReOpenPage.png)
+
+    ![Search History](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SearchHistory.png)
+
+</details>
 
 ### Project Requirements:
+<details>
+<summary>Click to expand</summary>
+
 * The user when opening the dashboard will see a input field to search for a city.
 * The user will enter a specific city and click either enter or search button. 
 * The user will then see the current conditions for that city showing the following:
@@ -54,7 +79,12 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 * After the user searches for that city is will be stored in previous search field and will allow the user the ability to search for that city again by pressing on that city in the previous search field.
 * Finally when the user visits the dashboard again. The user will see all the previously searched cities and the forecast for the last city searched.
 
-### This project has several scripted features of: 
+</details>
+
+### This project has several scripted features of:
+<details>
+<summary>Click to expand</summary>
+
 * Event listener (onclick) to allow the user to send the city name and retrieve the weather conditions.
 * An array & forEach loop with a function that generates all the weather card bodies for the five day forecast into the HTML.
 * A funtion using moment & ajax which pulls the current date and weather data. a formula to calculate the temperature from Kelvin to Fahrenheit. It also sets the date format then places all the information in the current weather container.
@@ -64,6 +94,8 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 * Two event listener functions for the search button and the previous city search buttons in the previous search list.
 * A function that sets the city name that is currently search and adds it to local storage.
 * A function that generates previous searched cities by pulling the data from local storage and then individual going through the array with a for loop and creating list buttons for the previous search area.
+
+</details>
 
 ### To Execute File:
 > Open in browser by way of Deployed IO link
