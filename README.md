@@ -33,11 +33,11 @@ This project has been deployed to my Personal GitHub Page. To get this project u
         <summary>Click to expand</summary>
 
     - Only contains the Main Header and the City Search Input Page
-    <br>
+    
     *Opening Page*![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)
-    <br>
+    
     - Allows the user to start their initial weather search
-    <br>
+    
     *Start Search Page*![Start Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/StartSearch.png)
 
     </details>
@@ -49,9 +49,9 @@ This project has been deployed to my Personal GitHub Page. To get this project u
     - Show the current weather with all the information required
     - Shows the 5-Day forecast information below the current weather with all the required information
     - Shows the area with the previous search history
-    <br>
+    
     *Initial Results*![Initial Results](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/InitialResults.png)
-    <br>
+    
     *Second City Search*![Second Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SecondSearch.png)
 
     </details>
