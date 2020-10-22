@@ -29,6 +29,8 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
 </details>
 
+![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)
+
 * The Result Page
 <details>
 <summary>Click to expand</summary>
