@@ -25,7 +25,7 @@ function forecastData(city) {
 
 	.then(function(future) {
 		//console log data to pull the needed attributes for this assigment (marked for comment because it works)     
-		// console.log(future);
+		 console.log(future);
 		// console.log(queryURL);
 
 		//sets a loop to go thru the future forecast array and displays
@@ -88,6 +88,7 @@ function currentData(city) {
         //this section pulls the current date
 		var nowDate = moment();        
         var curDate = nowDate.format("M/D/YYYY");
+		console.log(today)
 
         //this section builds the current weather card
 		var cityNm = $("<h3>").text(today.name + " Weather for " + curDate + " ");
@@ -176,5 +177,3 @@ function UVpull() {
 		$("#curUVI").append(uvLabel);
 	});
 }
-var locate =""
-
