@@ -29,45 +29,45 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 ## Assignment
 ### This assignment contains the following features: 
 * The Initial Opening Page
-<details>
-<summary>Click to expand</summary>
+    <details>
+        <summary>Click to expand</summary>
 
-        - Only contains the Main Header and the City Search Input Page
+    - Only contains the Main Header and the City Search Input Page
 
-*Opening Page*![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)
+    *Opening Page*![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)
 
-        - Allows the user to start their initial weather search
+    - Allows the user to start their initial weather search
 
-*Start Search Page*![Start Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/StartSearch.png)
+    *Start Search Page*![Start Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/StartSearch.png)
 
-</details>
+    </details>
 
 * The Result Page
-<details>
-    <summary>Click to expand</summary>
+    <details>
+        <summary>Click to expand</summary>
 
-        - Show the current weather with all the information required
-        - Shows the 5-Day forecast information below the current weather with all the required information
-        - Shows the area with the previous search history
+    - Show the current weather with all the information required
+    - Shows the 5-Day forecast information below the current weather with all the required information
+    - Shows the area with the previous search history
 
-*Initial Results*![Initial Results](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/InitialResults.png)
+    *Initial Results*![Initial Results](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/InitialResults.png)
 
-*Second City Search*![Second Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SecondSearch.png)
+    *Second City Search*![Second Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SecondSearch.png)
 
-</details>
+    </details>
 
 * The Reopened Website
-<details>
-    <summary>Click to expand</summary>
+    <details>
+        <summary>Click to expand</summary>
 
-        - Shows the user all of the cities that were searched
-        - Also the weather data for the last city the user searched using the site
+    - Shows the user all of the cities that were searched
+    - Also the weather data for the last city the user searched using the site
 
-*Web Page Reopened*![Reopen Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/ReOpenPage.png)
+    *Web Page Reopened*![Reopen Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/ReOpenPage.png)
 
-*Search History showing Local Storage*![Search History](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SearchHistory.png)
+    *Search History showing Local Storage*![Search History](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SearchHistory.png)
 
-</details>
+    </details>
 
 ## Project Requirements: <a name="projectrequirements"></a>
 <details>
@@ -97,7 +97,7 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 ## Scripted Features <a name="scriptedfeatures></a>
 ### This project has several scripted features of:
 <details>
-<summary>Click to expand</summary>
+    <summary>Click to expand</summary>
 
 * Event listener (onclick) to allow the user to send the city name and retrieve the weather conditions.
 * An array & forEach loop with a function that generates all the weather card bodies for the five day forecast into the HTML.
