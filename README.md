@@ -6,14 +6,27 @@ This application was created to emphasize the use of HTML, CSS , jQuery & Moment
 
 This project has been deployed to my Personal GitHub Page. To get this project up and running, you can follow the deployment links that I have included in the Link Section below.
 
+# Table of Contents
+1. [Links](#Links)
+2. [Project Overview](#projectoverview)
+3. [Assignment](#Assignment)
+4. [Project Requirements](#projectrequirements)
+5. [Scripted Features](#scriptedfeatures)
+6. [Execution](Execution)
+7.[Contains](#Contains)
+8.[Creators](#Creators)
+
+
 ## Links
 
 * [GitHub Repository](https://github.com/JC72/JeffClegg_06_WeatherDashboard)
 * [Deployed GitHub IO](https://jc72.github.io/JeffClegg_06_WeatherDashboard/) 
 
-### Project Overview
+## Project Overview <a name="projectoverview"></a>
+
 * HTML, CSS, jQuery (using Moment.js) and OpenWeatheMap API were used to create a weather dashboard that allows a user to find the daily weather for a specific city buy typing that city in the input field and either hitting enter or click on th search icon.  It also shows a brief 5 day forecast and generates a previous search. It also keeps the previous city search hisory and stores it in local storage so when the site is reopened it returns the search history and the forecast for the last city that was searched.
 
+## Assignment
 ### This assignment contains the following features: 
 * The Initial Opening Page
 <details>
@@ -21,11 +34,11 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
     * Only contains the Main Header and the City Search Input Page
 
-![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)*Opening Page*
+*Opening Page*![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)
 
     * Allows the user to start their initial weather search
 
-![Start Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/StartSearch.png)*Start Search Page*
+*Start Search Page*![Start Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/StartSearch.png)
 
 </details>
 
@@ -37,9 +50,9 @@ This project has been deployed to my Personal GitHub Page. To get this project u
     * Shows the 5-Day forecast information below the current weather with all the required information
     * Shows the area with the previous search history
 
-![Initial Results](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/InitialResults.png)*Initial Results*
+*Initial Results*![Initial Results](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/InitialResults.png)
 
-![Second Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SecondSearch.png)*Second City Search*
+*Second City Search*![Second Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SecondSearch.png)
 
 </details>
 
@@ -50,13 +63,13 @@ This project has been deployed to my Personal GitHub Page. To get this project u
     * Shows the user all of the cities that were searched
     * Also the weather data for the last city the user searched using the site
 
-![Reopen Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/ReOpenPage.png)*Web Page Reopened*
+*Web Page Reopened*![Reopen Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/ReOpenPage.png)
 
-![Search History](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SearchHistory.png)*Search History showing Local Storage*
+*Search History showing Local Storage*![Search History](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SearchHistory.png)
 
 </details>
 
-### Project Requirements:
+## Project Requirements: <a name="projectrequirements"></a>
 <details>
 <summary>Click to expand</summary>
 
@@ -81,6 +94,7 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
 </details>
 
+## Scripted Features <a name="scriptedfeatures></a>
 ### This project has several scripted features of:
 <details>
 <summary>Click to expand</summary>
@@ -97,6 +111,7 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
 </details>
 
+## Execution
 ### To Execute File:
 > Open in browser by way of Deployed IO link
 
