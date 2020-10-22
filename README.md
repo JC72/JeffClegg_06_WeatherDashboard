@@ -21,15 +21,13 @@ This project has been deployed to my Personal GitHub Page. To get this project u
 
     * Only contains the Main Header and the City Search Input Page
 
-    ![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)
+![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)*Opening Page*
 
     * Allows the user to start their initial weather search
 
-    ![Start Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/StartSearch.png)
+![Start Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/StartSearch.png)*Start Search Page*
 
 </details>
-
-![Opening Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/OpenPage.png)
 
 * The Result Page
 <details>
@@ -39,9 +37,9 @@ This project has been deployed to my Personal GitHub Page. To get this project u
     * Shows the 5-Day forecast information below the current weather with all the required information
     * Shows the area with the previous search history
 
-    ![Initial Results](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/InitialResults.png)
+![Initial Results](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/InitialResults.png)*Initial Results*
 
-    ![Second Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SecondSearch.png)
+![Second Search](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SecondSearch.png)*Second City Search*
 
 </details>
 
@@ -52,9 +50,9 @@ This project has been deployed to my Personal GitHub Page. To get this project u
     * Shows the user all of the cities that were searched
     * Also the weather data for the last city the user searched using the site
 
-    ![Reopen Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/ReOpenPage.png)
+![Reopen Page](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/ReOpenPage.png)*Web Page Reopened*
 
-    ![Search History](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SearchHistory.png)
+![Search History](https://github.com/JC72/JeffClegg_06_WeatherDashboard/blob/main/Assets/images/ScreenShots/SearchHistory.png)*Search History showing Local Storage*
 
 </details>
 
@@ -117,7 +115,7 @@ This project has been deployed to my Personal GitHub Page. To get this project u
             * Variables
             * Array
 
-    *LocalStroage.js
+    * LocalStroage.js
         * Contains:
             * Variables, including arrays and value placeholders
             * Functions & Funtion Calls
